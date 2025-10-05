@@ -1,0 +1,14 @@
+common.serialization.LongDeserializer
+Exception in thread "main" java.lang.ClassNotFoundException: org.apache.kafka.
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:315)
+	at kafka.tools.DefaultMessageFormatter.getDeserializerProperty(ConsoleConsumer.scala:605)
+	at kafka.tools.DefaultMessageFormatter.$anonfun$configure$22(ConsoleConsumer.scala:515)
+	at kafka.tools.DefaultMessageFormatter.configure(ConsoleConsumer.scala:615)
+	at kafka.tools.ConsoleConsumer$ConsumerConfig.<init>(ConsoleConsumer.scala:325)
+	at kafka.tools.ConsoleConsumer$.main(ConsoleConsumer.scala:51)
+	at kafka.tools.ConsoleConsumer.main(ConsoleConsumer.scala)
+[H[2J[3J[H[2J[3J
